@@ -159,3 +159,21 @@ section {
 .btn i {
     margin-left: 9px;
 }
+
+.brands {
+    padding: 30px 14%;
+    background: var(--text-color);
+}
+
+.main-brands {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.brands-c img {
+    width: 100%;
+    height: auto;
+}
