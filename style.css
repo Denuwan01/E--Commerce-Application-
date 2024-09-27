@@ -307,3 +307,16 @@ section {
     font-weight: 600;
     margin-bottom: 5px;
 }
+
+f-text p{
+    font-size: var(--p-font);
+    font-weight: 400;
+    color: var(--second-color);
+    line-height: 33px;
+}
+
+.box:hover{
+    transform: translateY(-4px) scale(1.02);
+    border-left: 4px solid var(--text-color);
+    cursor: pointer;
+}
