@@ -308,7 +308,7 @@ section {
     margin-bottom: 5px;
 }
 
-f-text p {
+.f-text p {
     font-size: var(--p-font);
     font-weight: 400;
     color: var(--second-color);
