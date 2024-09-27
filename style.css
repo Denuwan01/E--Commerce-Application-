@@ -308,15 +308,73 @@ section {
     margin-bottom: 5px;
 }
 
-f-text p{
+f-text p {
     font-size: var(--p-font);
     font-weight: 400;
     color: var(--second-color);
     line-height: 33px;
 }
 
-.box:hover{
+.box:hover {
     transform: translateY(-4px) scale(1.02);
     border-left: 4px solid var(--text-color);
     cursor: pointer;
+}
+
+.selling-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+    align-items: center;
+    gap: 2.5rem;
+    margin-top: 4rem;
+}
+
+.col {
+    position: relative;
+    transition: all .6s;
+}
+
+.col-img {
+    overflow: hidden;
+    border-radius: 28px;
+}
+
+.col-img img {
+    display: block;
+    width: 100%;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+
+.col-img:hover img {
+    transform: scale(1.05);
+}
+
+.col-icon {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+}
+
+.col-icon a {
+    display: block;
+}
+
+.col-icon i {
+    margin-bottom: 20px;
+    width: 40px;
+    height: 40px;
+    background: var(--text-color);
+    color: var(--bg-color);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    opacity: 0;
+    transition: all .6s;
+}
+
+.col:hover .col-icon i {
+    opacity: 1;
+    transform: rotate3d(0, 0, 1, 360deg) scale(1.03);
 }
