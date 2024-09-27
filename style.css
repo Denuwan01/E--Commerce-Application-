@@ -422,3 +422,50 @@ f-text p {
     font-size: var(--p-font);
     cursor: pointer;
 }
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax 20px, auto);
+    gap: 2rem;
+}
+
+.footer-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-box h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.footer-box a {
+    color: var(--second-color);
+    margin-bottom: 0.8rem;
+    transition: all .50s ease;
+}
+
+.footer-box a:hover {
+    transform: translateX(-5px);
+    color: var(--text-color);
+}
+
+.social a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    background: var(--text-color);
+    color: var(--bg-color);
+    font-size: 17px;
+    border-radius: 10px;
+    margin-right: 14px;
+    transform: transform 0.6s;
+}
+
+.social a:hover {
+    transform: rotate3d(0, 0, 1, 360deg) scale(1.06);
+    color: var(--bg-color);
+}
