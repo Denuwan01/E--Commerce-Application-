@@ -276,3 +276,34 @@ section {
     color: var(--bg-color);
     transform: scale(0.9) translateY(-6px);
 }
+
+.feature {
+    padding: 10px 14% 10px;
+}
+
+.feature-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.box {
+    padding: 15px 15px 15px 30px;
+    border-left: 4px soild var(--second-color);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    transition: all .6s;
+}
+
+.f-icon {
+    font-size: 33px;
+}
+
+.f-text {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
