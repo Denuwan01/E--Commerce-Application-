@@ -470,3 +470,22 @@ section {
     transform: rotate3d(0, 0, 1, 360deg) scale(1.06);
     color: var(--bg-color);
 }
+
+.copyright {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px 14% 20px;
+}
+
+.end-text p {
+    font-size: 15px;
+}
+
+.end-img img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
