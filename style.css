@@ -489,3 +489,21 @@ section {
     height: auto;
     cursor: pointer;
 }
+
+@media(max-width: 1610px) {
+    header {
+        padding: 15px 7%;
+    }
+
+    section {
+        padding: 70px 7% 80px;
+    }
+
+    .brands {
+        padding: 20px 7%;
+    }
+
+    .feature {
+        padding: 10px 7% 10px;
+    }
+}
