@@ -507,3 +507,45 @@ section {
         padding: 10px 7% 10px;
     }
 }
+
+@media(max-width:1500px) {
+    .home {
+        height: 90vh;
+    }
+
+    :root {
+        --h1-font: 4.8rem;
+        --h2-font: 2.8rem;
+        --p-font: 15px;
+    }
+}
+
+@media(max-width: 1170px) {
+    header {
+        padding: 10px 4%;
+    }
+
+    section {
+        padding: 60px 4% 70px;
+    }
+
+    .brands {
+        padding: 30px 4%;
+    }
+
+    .feature {
+        padding: 10px 4% 10px;
+    }
+
+    .feature-content {
+        grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    }
+
+    .newsletter-content {
+        grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    }
+
+    .selling-content {
+        grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    }
+}
