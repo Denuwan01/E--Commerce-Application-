@@ -160,6 +160,16 @@ section {
     margin-left: 9px;
 }
 
+.cover img {
+    margin-top: 5rem;
+    height: 420px;
+    width: 350px;
+    align-items: center;
+    margin-left: 8rem;
+    margin-right: rem;
+    border-radius: 15%;
+}
+
 .brands {
     padding: 30px 14%;
     background: var(--text-color);
@@ -294,7 +304,7 @@ section {
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
     display: flex;
     justify-content: space-between;
-    gap: 30px;
+    gap: 40px;
     transition: all .6s;
 }
 
@@ -306,6 +316,10 @@ section {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 5px;
+}
+
+.n-content h3 {
+    color: var(--text-color);
 }
 
 .f-text p {
@@ -351,7 +365,7 @@ section {
 }
 
 .col-img:hover img {
-    transform: scale(1.05);
+    transform: scale(1.04);
 }
 
 .col-icon {
@@ -497,6 +511,10 @@ section {
 @media(max-width: 1610px) {
     header {
         padding: 15px 7%;
+    }
+
+    .cover {
+        flex-direction: column;
     }
 
     section {
