@@ -40,7 +40,7 @@
 
     <!---home-->
     <section class="home">
-        <div class="home-text">
+        <div class="home-text" data-aos="fade-up">
             <h6>New Arrivals</h6>
             <h1>New Arrivals <br> ready to rock</h1>
             <p>Discover the latest trends with our new arrivals,
@@ -55,7 +55,7 @@
 
     <!---brands-->
     <div class="brands">
-        <div class="main-brands">
+        <div class="main-brands" data-aos="zoom-in">
             <div class="brands-c">
                 <img src="img1" alt="">
             </div>
@@ -80,11 +80,11 @@
 
     <!--all products-->
     <section class="n-product">
-        <div class="center-text">
+        <div class="center-text" data-aos="fade-down">
             <h2>All Products</h2>
         </div>
 
-        <div class="n-content">
+        <div class="n-content" data-aos="zoom-in">
             <div class="row">
                 <div class="row-img">
                     <img src="img3" alt="">
@@ -288,12 +288,15 @@
 
         </div>
 
-        <div class="n-btn"><a href="#" class="btn2">View All</a></div>
+        <div class="n-btn" data-aos="zoom-in">
+            <a href="#" class="btn2">View All</a>
+        </div>
     </section>
+
     <!--feature-->
 
     <section class="feature">
-        <div class="feature-content">
+        <div class="feature-content" data-aos="fade-down">
             <div class="box">
                 <div class="f-icon">
                     <i class="ri-bank-card-fill"></i>
@@ -333,39 +336,45 @@
 
     <!---best Selling-->
     <section class="selling">
-        <div class="col">
-            <div class="col-img">
-                <img src="img1">
-            </div>
-
-            <div class="col-icon">
-                <a href="#"><i class="ri-heart-line"></i></a>
-                <a href="#"><i class="ri-eye-line"></i></a>
-                <a href="#"><i class="ri-shopping-cart-line"></i></a>
-            </div>
+        <div class="center-text" data-aos="fade-up">
+            <h2>Best Sellings</h2>
         </div>
 
-        <div class="col">
-            <div class="col-img">
-                <img src="img1">
+        <div class="selling-content" data-aos="zoom-in-up">
+            <div class="col">
+                <div class="col-img">
+                    <img src="img1">
+                </div>
+
+                <div class="col-icon">
+                    <a href="#"><i class="ri-heart-line"></i></a>
+                    <a href="#"><i class="ri-eye-line"></i></a>
+                    <a href="#"><i class="ri-shopping-cart-line"></i></a>
+                </div>
             </div>
 
-            <div class="col-icon">
-                <a href="#"><i class="ri-heart-line"></i></a>
-                <a href="#"><i class="ri-eye-line"></i></a>
-                <a href="#"><i class="ri-shopping-cart-line"></i></a>
-            </div>
-        </div>
+            <div class="col">
+                <div class="col-img">
+                    <img src="img1">
+                </div>
 
-        <div class="col">
-            <div class="col-img">
-                <img src="img1">
+                <div class="col-icon">
+                    <a href="#"><i class="ri-heart-line"></i></a>
+                    <a href="#"><i class="ri-eye-line"></i></a>
+                    <a href="#"><i class="ri-shopping-cart-line"></i></a>
+                </div>
             </div>
 
-            <div class="col-icon">
-                <a href="#"><i class="ri-heart-line"></i></a>
-                <a href="#"><i class="ri-eye-line"></i></a>
-                <a href="#"><i class="ri-shopping-cart-line"></i></a>
+            <div class="col">
+                <div class="col-img">
+                    <img src="img1">
+                </div>
+
+                <div class="col-icon">
+                    <a href="#"><i class="ri-heart-line"></i></a>
+                    <a href="#"><i class="ri-eye-line"></i></a>
+                    <a href="#"><i class="ri-shopping-cart-line"></i></a>
+                </div>
             </div>
         </div>
 
@@ -374,7 +383,7 @@
     <!---newsletter section-->
 
     <section class="newsletter">
-        <div class="newsletter-content">
+        <div class="newsletter-content" data-aos="">
             <div class="newsletter-text">
                 <h2>Get On The List!</h2>
                 <p>Sign Up With your email address to receive updates.</p>
@@ -388,7 +397,7 @@
     </section>
 
     <!---footer-->
-    <section class="footer">
+    <section class="footer" data-aos="fade-down">
         <div class="footer-box">
             <h3>Company</h3>
             <a href="#">About</a>
@@ -434,7 +443,13 @@
     </div>
 
 
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 300,
+            duration: 1450,
+        });
+    </script>
 
 
 
