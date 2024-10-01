@@ -614,3 +614,18 @@ section {
         font-size: 12px;
     }
 }
+
+@media(max-width:530px) {
+    :root {
+        --h1-font: 3.5rem;
+        --h2-font: 2.2rem;
+    }
+
+    .btn {
+        padding: 12px 20px;
+    }
+
+    .nav-right a {
+        margin-right: 7px;
+    }
+}
