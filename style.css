@@ -329,6 +329,10 @@ section {
     margin-top: 4rem;
 }
 
+.center-text {
+    color: var(--text-color);
+}
+
 .col {
     position: relative;
     transition: all .6s;
