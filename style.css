@@ -458,7 +458,7 @@ section {
     color: var(--text-color);
     font-size: 20px;
     font-weight: 600;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .footer-box a {
@@ -502,12 +502,14 @@ section {
 
 .end-text p {
     font-size: 15px;
+    color: var(--text-color);
 }
 
 .end-img img {
     width: 100%;
     height: auto;
     cursor: pointer;
+    align-items: end;
 }
 
 @media(max-width: 1610px) {
