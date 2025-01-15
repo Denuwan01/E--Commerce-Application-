@@ -17,4 +17,6 @@ This is a basic e-commerce website built using **HTML, CSS, and JavaScript**. It
 ## How to Use
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/your-username/ecommerce-website.git
+   git clone https://github.com/Denuwan01/E--Commerce-Application-
+2. Link: https://denuwan01.github.io/E--Commerce-Application-/ 
+
